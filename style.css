@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+header {
+    background: black;
+    color: white;
+    width: 100%;
+    height: 40px;
+    position: static;
+    z-index: 10;
+}
+#logo {
+    height: 60px;
+    width: 140px;
+    float: left;
+    position: absolute;
+    top:5px;
+    margin-left: 5%;
+   
+}
+#menu {
+        content: "\2022";  
+        color: white;
+        float: right;
+        list-style: none;
+        margin-right: 10px;
+}
+li {
+    float: left;
+    font-size: 18px;
+    padding: 10 5 10 5;
+     color: white;
+     border: 2px solid black;
+     background-color:white;
+
+}
+li:hover {
+    background-color:rgba(255, 166, 0, 0.925); 
+}
+#imagem_fundo {
+    background: url("img/fundo.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: white;
+    padding-top: 20%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 40px;
+    text-shadow: 1px 1px  black;
+    line-height: 0.3;
+}
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    border-top: 2px solid white;
+    text-shadow: 1px 1px  black;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.icone {
+    width: 70px;
+    
+}
+section {
+    padding: 10px;
+    float: left;
+}
+.destaque {
+    background-color: #f7f7f7;
+}
+.destaque2 {
+    background-color:rgba(255, 166, 0, 0.925); 
+}
+.destaque3{
+    background-color:white;
+}
+.imgeco {
+    width: 50%;
+    height: 25%;
+}
+#x{
+    color: white;
+}
+#x1{
+    color: white;
+}
+#borda{
+
+    border:1px solid rgba(255, 255, 255, 0.925);
+    border:1px solid  rgba(255, 255, 255, 0.925);
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+ 
+    width: 40%;
+}
+.cinco {
+    width: 18%;
+    border-left:1px solid rgba(255, 166, 0, 0.925);
+    border-right: 1px solid rgba(255, 166, 0, 0.925); 
+    padding: 0.8%;
+}
+.cinco2 {
+    width: 18%;
+    border-left:1px solid rgba(255, 166, 0, 0.925);
+    border-right:1px solid  rgba(255, 166, 0, 0.925); 
+    padding: 0.8%;
+}
+.tres {
+    
+    width:32%;
+    padding: 0.5%;
+}
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+ 
+}
+.imagens{
+  
+    width: 15%;
+    height: 30%;
+    padding: 10px;
+ 
+}
+footer {
+    background-color:black;
+    float: left;
+    width: 100%;
+    height: 40%;
+    color:white;
+}
